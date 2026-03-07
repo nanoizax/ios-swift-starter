@@ -1,0 +1,63 @@
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Derived Data
+DerivedData/
+
+# Archives
+*.xcarchive
+
+# Instruments
+*.trace
+
+# Build products
+build/
+
+# CocoaPods (not used, but just in case)
+Pods/
+*.podspec
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Sourcery
+Generated/
+
+# Secrets / environment
+*.env
+.env.*
+Secrets.swift
+APIKeys.swift
+
+# Simulator
+*.sim
